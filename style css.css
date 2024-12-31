@@ -1,0 +1,179 @@
+/* font styles TimesNow Light*/
+@font-face {
+    font-family: timesnewroman;
+    src: url('https://cdn.courses.apisystem.tech/memberships/VAKiqZyjSYMOQr9YsIKD/post-materials/270e657a-a158-4ce3-b53f-b888e70533f4/times-new-roman.woff2') format('woff2');
+}
+
+.timesnewroman {
+    font-family: timesnewroman !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headlinefont {
+    font-family: 'DM Serif Display' !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* prevent overflow from items moving out of the frame*/
+html, body {
+    overflow-x: hidden;
+}
+
+
+/* button style*/
+
+.buttonstyle1 {
+    background: #000 !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: 2px solid white !important;
+    color: #fff;
+    transition: ease 0.5s !important;
+    font-family: timesnewroman !important;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.buttonstyle1:hover {
+    background: #fff !important;
+    color: #000;
+    transition: ease 0.5s !important;
+}
+
+/* section format and offset*/
+#section-6c93lP9Vwl {
+    width: 2100px;
+    left: -10%;
+}
+
+
+/* Animation of past work column*/
+#col-3OZWiflmVw {
+    animation: newmove1 1.5s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+}
+
+
+ /* section format and speed animation for mobile*/
+@media (max-width: 800px) {
+  
+  /*---for the past work -----*/ 
+    #section-6c93lP9Vwl {
+        width: 1300px;
+    }
+
+    #col-3OZWiflmVw {
+        animation: newmove1 0.4s linear infinite;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+    }
+  
+    /*---for client logo -----*/
+    .imagelogo1 {
+        width: 10vw !important;
+    }
+}
+
+ /* anmation is negative so it goes right to left*/
+@keyframes newmove1 {
+    to {
+        transform: translateX(-1000px);
+        overflow-x: hidden;
+    }
+}
+
+
+/*shadow and make bigger upon hover */
+#image-Z7Vd9elo_Z {
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+#image-Z7Vd9elo_Z:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    z-index: 10 !important;
+    transition: 0.5s;
+}
+
+#image-8WP2PeY6z2 {
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+#image-8WP2PeY6z2:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    z-index: 10 !important;
+    transition: 0.5s;
+}
+
+#image-1IdNfgB5fH {
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+#image-1IdNfgB5fH:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    z-index: 10 !important;
+    transition: 0.5s;
+}
+
+#image-W4sSDrBibB {
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+#image-W4sSDrBibB:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    z-index: 10 !important;
+    transition: 0.5s;
+}
+
+#image-c4TE_u88nd {
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+#image-c4TE_u88nd:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.1);
+    z-index: 10 !important;
+    transition: 0.5s;
+}
+
+
+/* logo marquee animation code*/
+.imagelogo1 {
+    width: 6vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#row-lp0b6AumTu {
+    align-items: center !important;
+    justify-content: center !important;
+    transform-origin: center !important;
+    width: 200vw !important;
+    animation: Scrolltest2 30s linear infinite;
+}
+
+#row-lp0b6AumTu:hover {
+    animation-play-state: paused;
+}
+
+@keyframes Scrolltest2 {
+    0% {
+        transform: translateX(0vw);
+        -webkit-transform: translateX(0vw);
+    }
+
+    100% {
+        transform: translateX(-99vw);
+        -webkit-transform: translateX(-99vw);
+    }
+}
